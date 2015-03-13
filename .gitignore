@@ -24,9 +24,11 @@ report
 # Dependency directory
 node_modules
 
-# Local environment script
-local_env.sh
+# Local environment variables
+.env
 
-# React-specific files
-/src/js/bundle.js
-/src/js/bundle.min.js
+# Project-specific files
+/dist
+/bower_components
+/build
+/dist

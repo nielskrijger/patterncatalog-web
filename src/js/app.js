@@ -1,14 +1,15 @@
 var React = require('react');
-
-var PatternData = require('./data');
-var PatternAPI = require('./utils/PatternAPI');
-var PatternList = require('./components/PatternList.react');
+var PatternAPI = require('./utils/PatternAPI')
+var FluxCartApp = require('./components/FluxCartApp.react');
 
 // Load Mock Product Data into localStorage
-PatternData.init();
-PatternAPI.getAll();
+ProductData.init();
 
+// Load Mock API Call
+CartAPI.getProductData();
+
+// Render FluxCartApp Controller View
 React.render(
-    <div>Test <PatternList /></div>,
-    document.getElementById('patternapp')
+    <FluxCartApp />,
+    document.getElementById('flux-cart')
 );

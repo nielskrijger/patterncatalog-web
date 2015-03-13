@@ -1,0 +1,14 @@
+{
+  "name": "patterncatalog-web",
+  "version": "0.0.1",
+  "description": "Web frontend for PatternCatalog.org",
+  "homepage": "https://github.com/nielskrijger/patterncatalog-web",
+  "authors": [
+    "Niels Krijger <niels@kryger.nl>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "~3.3.1",
+    "fontawesome": "~4.2.0"
+  }
+}

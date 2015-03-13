@@ -1,0 +1,5 @@
+{
+    "env": "development",
+    "assets": "/../build",
+    "minified": false
+}

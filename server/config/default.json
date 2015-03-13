@@ -1,0 +1,28 @@
+{
+    "env": {
+        "doc": "The applicaton environment.",
+        "format": ["development", "test", "production"],
+        "default": "development",
+        "env": "NODE_ENV"
+    },
+    "assets": {
+        "doc": "The directory to serve static assets from",
+        "default": "../dist"
+    },
+    "port": {
+        "doc": "The port to bind to.",
+        "format": "port",
+        "default": 8000,
+        "env": "PORT"
+    },
+    "api": {
+        "doc": "The API endpoint.",
+        "default": "http://localhost:3000/api/patterns",
+        "env": "API"
+    },
+    "minified": {
+        "doc": "Load minified assets (css and js asset names are transformed from *.* to *.min.*)",
+        "default": true,
+        "env": "MINIFIED"
+    }
+}

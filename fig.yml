@@ -1,0 +1,13 @@
+patterncatalog:
+  image: nielskrijger/patterncatalog:latest
+  ports:
+    - "3000:3000"
+  links:
+    - db
+  environment:
+    NODE_ENV: development
+
+db:
+  image: mongo:2.6
+  ports:
+    - "27017:27017"
